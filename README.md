@@ -1,3 +1,3 @@
-# goit-markup-hw-04
- Репозиторій для четвертого дз
-https://maxgavryshkiv.github.io/goit-markup-hw-04/
+# goit-markup-hw-06
+ Репозиторій для шостого дз
+
