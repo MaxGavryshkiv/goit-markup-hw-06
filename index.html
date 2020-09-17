@@ -601,11 +601,44 @@
           </svg>
         </button>
         <form>
-          <h2>Оставьте свои данные, мы вам перезвоним</h2>
+          <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+
           <label>
-            Имя
-            <input type="text" id="name" />
+            <span class="text">Имя</span>
+            <input class="option input" type="text" id="user-name" />
           </label>
+
+          <label>
+            <span class="text">Телефон</span>
+            <input class="option input" type="tel" id="user-tel" />
+          </label>
+
+          <label>
+            <span class="text">Почта</span>
+            <input class="option input" type="email" id="user-email" />
+          </label>
+
+          <label>
+            <span class="text">Коментарий</span>
+            <textarea
+              placeholder="Введите текст"
+              class="option comment"
+              name="user-message"
+              rows="5"
+            ></textarea>
+          </label>
+
+          <label class="option">
+            <input class="check" type="checkbox" id="user-checkbox" />
+
+            <span class="link agreement-1"
+              >Соглашаюсь с рассылкой и принимаю</span
+            >
+
+            <a href="" class="agreement-2">Условия договора</a>
+          </label>
+
+          <button class="button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
