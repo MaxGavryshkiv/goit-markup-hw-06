@@ -354,6 +354,27 @@
             </li>
           </ul>
         </div>
+
+        <div class="div-mailing">
+          <p class="mailing-title">Подпишитесь на рассылку</p>
+          <label for="mailing" class="mailing-label">
+            <input
+              class="mailing-input"
+              type="email"
+              id="mailing"
+              name="mailing"
+              placeholder="E-mail"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </label>
+          <button type="submit" class="subscribe">
+            <span class="text">Подписаться</span>
+            <svg class="telegram">
+              <use href="./img/icon/sprite.svg#telegram"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
   </body>
