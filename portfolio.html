@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -26,33 +25,28 @@
             ><span class="logo-second">Studio</span>
           </a>
 
-          <ul class="list-nav list">
-            <li class="nav-item">
-              <a class="list-nav-link" href="./index.html"> Студия </a>
+          <ul class="navigation-list list">
+            <li class="navigation__list-item">
+              <a class="item-link" href="./index.html"> Студия </a>
             </li>
-            <li class="nav-item">
-              <a class="list-nav-link current" href="./portfolio.html">
-                Портфолио
-              </a>
+            <li class="navigation__list-item">
+              <a class="item-link current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav-item">
-              <a class="list-nav-link" href=""> Контакты </a>
+            <li class="navigation__list-item">
+              <a class="item-link" href=""> Контакты </a>
             </li>
           </ul>
         </nav>
 
-        <div class="address-content">
-          <a
-            class="address-head mail-link address-link"
-            href="mailto:info@devstudio.com"
-          >
-            <svg class="head-icon">
+        <div class="address">
+          <a class="address-link" href="mailto:info@devstudio.com">
+            <svg class="address__link-icon">
               <use href="./img/icon/sprite.svg#envelope"></use>
             </svg>
             info@devstudio.com
           </a>
-          <a class="address-head address-link" href="tel:+380961111111">
-            <svg class="head-icon">
+          <a class="address-link" href="tel:+380961111111">
+            <svg class="address__link-icon">
               <use href="./img/icon/sprite.svg#smartphone"></use>
             </svg>
             +38 096 111 11 11
@@ -60,8 +54,10 @@
         </div>
       </div>
     </header>
-    <!-- Hero -->
+
     <main>
+      <!-- Hero -->
+
       <section class="section portfolio">
         <div class="container">
           <h1 class="second-hero" hidden>Портфолио</h1>
@@ -69,25 +65,25 @@
           <!-- types of jobs -->
 
           <ul class="buttons-list list">
-            <li class="button-item">
+            <li class="button__list-item">
               <button type="button" class="projects">Все</button>
             </li>
-            <li class="button-item">
+            <li class="button__list-item">
               <button type="button" class="projects">Веб-сайты</button>
             </li>
-            <li class="button-item">
+            <li class="button__list-item">
               <button type="button" class="projects">Приложения</button>
             </li>
-            <li class="button-item">
+            <li class="button__list-item">
               <button type="button" class="projects">Дизайн</button>
             </li>
-            <li class="button-item">
+            <li class="button__list-item">
               <button type="button" class="projects">Маркетинг</button>
             </li>
           </ul>
 
           <ul class="projects-list list">
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio1.jpg"
@@ -102,12 +98,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Технокряк</h2>
-                  <p class="text">Веб-сайт</p>
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-text">Веб-сайт</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio2.jpg"
@@ -122,12 +118,14 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                  <p class="text">Дизайн</p>
+                  <h2 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-text">Дизайн</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio3.jpg"
@@ -142,12 +140,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Ресторан Seafood</h2>
-                  <p class="text">Приложение</p>
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-text">Приложение</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio4.jpg"
@@ -162,12 +160,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Проект Prime</h2>
-                  <p class="text">Маркетинг</p>
+                  <h2 class="portfolio-title">Проект Prime</h2>
+                  <p class="portfolio-text">Маркетинг</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio5.jpg"
@@ -182,12 +180,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Проект Boxes</h2>
-                  <p class="text">Приложение</p>
+                  <h2 class="portfolio-title">Проект Boxes</h2>
+                  <p class="portfolio-text">Приложение</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio6.jpg"
@@ -202,12 +200,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Inspiration has no Borders</h2>
-                  <p class="text">Веб-сайт</p>
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-text">Веб-сайт</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio7.jpg"
@@ -222,12 +220,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Издание Limited Edition</h2>
-                  <p class="text">Дизайн</p>
+                  <h2 class="portfolio-title">Издание Limited Edition</h2>
+                  <p class="portfolio-text">Дизайн</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio8.jpg"
@@ -242,12 +240,12 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Проект LAB</h2>
-                  <p class="text">Маркетинг</p>
+                  <h2 class="portfolio-title">Проект LAB</h2>
+                  <p class="portfolio-text">Маркетинг</p>
                 </div>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project__list-item">
               <div class="description-box">
                 <img
                   src="./img/portfolio/portfolio9.jpg"
@@ -262,8 +260,8 @@
                   </p>
                 </div>
                 <div class="portfolio-content">
-                  <h2 class="title">Growing Business</h2>
-                  <p class="text">Приложение</p>
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-text">Приложение</p>
                 </div>
               </div>
             </li>
@@ -280,16 +278,22 @@
             <span class="logo-first">Web</span
             ><span class="logo-third">Studio</span>
           </a>
+
           <address>
-            <ul class="all-address list">
-              <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-              <li>
-                <a class="address-foot-first" href="mailto:info@example.com">
+            <ul class="footer__address-list list">
+              <li class="address__list-item">
+                г. Киев, пр-т Леси Украинки, 26
+              </li>
+              <li class="address__list-item">
+                <a
+                  class="address__list-item-link-1"
+                  href="mailto:info@example.com"
+                >
                   info@example.com
                 </a>
               </li>
-              <li>
-                <a class="address-foot-second" href="tel:+380991111111">
+              <li class="address__list-item">
+                <a class="address__list-item-link-2" href="tel:+380991111111">
                   +38 099 111 11 11
                 </a>
               </li>
@@ -297,57 +301,57 @@
           </address>
         </div>
 
-        <div class="sn-foot">
-          <p class="sn-title">присоединяйтесь</p>
-          <ul class="list footer-list">
-            <li class="footer-item">
+        <div class="footer-networks">
+          <p class="footer__networks-title">присоединяйтесь</p>
+          <ul class="list footer__networks-list">
+            <li class="footer__networks-list-item">
               <a
-                class="footer-link"
+                class="footer__networks-list-item-link"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="силка інстаграм"
               >
-                <svg class="footer-icon">
+                <svg class="footer__networks-list-item-link-icon">
                   <use href="./img/icon/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
+            <li class="footer__networks-list-item">
               <a
-                class="footer-link"
+                class="footer__networks-list-item-link"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="силка твітер"
               >
-                <svg class="footer-icon">
+                <svg class="footer__networks-list-item-link-icon">
                   <use href="./img/icon/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
+            <li class="footer__networks-list-item">
               <a
-                class="footer-link"
+                class="footer__networks-list-item-link"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="силка фейсбук"
               >
-                <svg class="footer-icon">
+                <svg class="footer__networks-list-item-link-icon">
                   <use href="./img/icon/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
+            <li class="footer__networks-list-item">
               <a
-                class="footer-link"
+                class="footer__networks-list-item-link"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="силка лінкедін"
               >
-                <svg class="footer-icon">
+                <svg class="footer__networks-list-item-link-icon">
                   <use href="./img/icon/sprite.svg#linkedin"></use>
                 </svg>
               </a>
@@ -355,11 +359,11 @@
           </ul>
         </div>
 
-        <div class="div-mailing">
+        <div class="mailing-container">
           <p class="mailing-title">Подпишитесь на рассылку</p>
           <label for="mailing" class="mailing-label">
             <input
-              class="mailing-input"
+              class="mailing__label-input"
               type="email"
               id="mailing"
               name="email"
@@ -368,9 +372,9 @@
               required
             />
           </label>
-          <button type="submit" class="subscribe">
-            <span class="text">Подписаться</span>
-            <svg class="telegram">
+          <button type="submit" class="mailing-subscribe">
+            <span class="mailing-text">Подписаться</span>
+            <svg class="mailing-icon">
               <use href="./img/icon/sprite.svg#telegram"></use>
             </svg>
           </button>
